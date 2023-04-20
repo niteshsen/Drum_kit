@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #283149;
+}
+
+#heading{
+    color: #DBEDF3;
+    font-size: 5rem;
+    text-shadow: .1875rem 0 #DA0463;
+}
+.drum{
+    height: 10rem;
+    width: 10rem;
+    background-color: #DBEDF3;
+    margin: 1rem;
+    border-radius: .625rem;
+    border: .625rem solid #404B69;
+    outline: none;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 2;
+    color: #DA0463;
+    text-shadow: .1875rem 0 #DBEDF3;
+    display: inline block;
+}
+
+.w{
+background-image: url("image/tom1.png");
+}
+
+.a{
+   background-image: url("image/tom2.png"); 
+}
+
+.s{
+    background-image: url("image/tom3.png");
+
+}
+
+.d{
+   background-image: url("image/tom4.png"); 
+}
+
+.j{
+    background-image: url("image/snare.png");  
+}
+
+.k{
+ background-image: url("image/drum1.png");   
+}
+
+.l{
+    background-image: url("image/drum2.png");
+}
+
+footer{
+    color: white;
+    margin-top: 12rem;
+}
+.btn{
+    margin: 10% auto;
+}
+
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+  
+    opacity:0.6;
+}
+.red{
+    color: red;
+}
